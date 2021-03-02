@@ -51,3 +51,7 @@ console.log(typeof year);
 
 console.log(typeof null);
 
+//task 2
+let isIsland = false;
+let language;
+console.log(isIsland , population , country , language);
