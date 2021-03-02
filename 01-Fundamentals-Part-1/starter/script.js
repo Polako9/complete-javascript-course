@@ -12,3 +12,11 @@ let myFirstJob = 'Programmer';
 let myCurrentJob = 'Artist';
 
 console.log(myFirstJob);
+
+//task
+
+let country = 'Poland';
+let continent = 'European continent';
+let population = '`38mln';
+
+console.log(country , continent , population);
