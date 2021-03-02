@@ -15,8 +15,7 @@ console.log(myFirstJob);
 
 //task
 
-let country = 'Poland';
-let continent = 'European continent';
+
 let population = '`38mln';
 
 console.log(country , continent , population);
@@ -55,3 +54,10 @@ console.log(typeof null);
 let isIsland = false;
 let language;
 console.log(isIsland , population , country , language);
+
+//task3
+
+language = 'polish';
+
+const country = 'Poland';
+const continent = 'European continent';
