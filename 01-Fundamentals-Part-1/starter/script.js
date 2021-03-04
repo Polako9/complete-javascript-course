@@ -1,3 +1,4 @@
+/*
 let js = 'amazing';
 if (js === 'amazing') alert('Javascript is cool');
 
@@ -18,7 +19,7 @@ console.log(myFirstJob);
 
 let population = '`38mln';
 
-console.log(country , continent , population);
+
 
 /*primitives types
 Number
@@ -31,7 +32,7 @@ BigInt (ES2020);!!!
 
 CTRL + / TO COMmENT TEXT
 */
-
+/*
 let javascriptIsFun  = true;
 console.log(javascriptIsFun);
 
@@ -53,7 +54,7 @@ console.log(typeof null);
 //task 2
 let isIsland = false;
 let language;
-console.log(isIsland , population , country , language);
+
 
 //task3
 
@@ -61,3 +62,48 @@ language = 'polish';
 
 const country = 'Poland';
 const continent = 'European continent';
+console.log(isIsland , population , country , language);
+console.log(country , continent , population);
+//operators
+
+const now = 2020;
+
+const Marcinek = now - 1993;
+const Julia = 23;
+console.log(Marcinek);
+
+console.log(Marcinek * 2, Marcinek / 2, 2 ** 3);
+//means 2 ** 3 means 2 to the power of 3
+
+firstName = 'Marcin';
+const lastName = 'Polak';
+
+console.log(firstName + ' ' + lastName);
+//assigment operators
+let x = 10 + 5; // 15
+x += 10; // x = x+ 10 = 25
+x *= 4; // x=x*4 = 100
+x++; // x = x + 1
+x--; // x = x - 1
+x--;
+console.log(x);
+
+//comparision operators
+console.log(Marcinek > Julia); // <, > <= , >=;
+console.log(Julia >= 24);
+
+const wynik = Julia >= 24;
+*/
+//task4
+const population = 38000000;
+const finland = 6000000;
+let wynik = (population / 2) /2;
+console.log(wynik);
+
+wynik++;
+console.log(wynik);
+
+console.log(population > finland);
+
+const description = 'portugal is in Europe, and its 11million people speak portuguese';
+console.log(description);
