@@ -95,6 +95,7 @@ console.log(Julia >= 24);
 const wynik = Julia >= 24;
 */
 //task4
+/*
 const population = 38000000;
 const finland = 6000000;
 let wynik = (population / 2) /2;
@@ -107,3 +108,19 @@ console.log(population > finland);
 
 const description = 'portugal is in Europe, and its 11million people speak portuguese';
 console.log(description);
+*/
+
+//coding challange
+
+const heightMark = 1.69 ;
+const weightMark = 78;
+const heightJohn = 1.95;
+const weightJohn = 92 ;
+
+bmiMark = weightMark/heightMark ** 2;
+bmiJohn =  weightJohn /(heightJohn * heightJohn) ;
+
+const markHigherBMI = bmiMark > bmiJohn;
+
+console.log(bmiMark,bmiJohn,markHigherBMI);
+
