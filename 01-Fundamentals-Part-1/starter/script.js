@@ -108,7 +108,6 @@ console.log(population > finland);
 
 const description = 'portugal is in Europe, and its 11million people speak portuguese';
 console.log(description);
-*/
 
 //coding challange
 
@@ -124,3 +123,9 @@ const markHigherBMI = bmiMark > bmiJohn;
 
 console.log(bmiMark,bmiJohn,markHigherBMI);
 
+*/
+const year = 1993
+const descr = `portugal is in Europe  test , ${year} and 11 million people \n\ speak portuguese`;
+console.log(descr);
+
+//    \n\ - means new line 
