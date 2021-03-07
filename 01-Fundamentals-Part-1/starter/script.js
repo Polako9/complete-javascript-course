@@ -129,3 +129,13 @@ const descr = `portugal is in Europe  test , ${year} and 11 million people \n\ s
 console.log(descr);
 
 //    \n\ - means new line 
+
+const polandPopulation = 40 ; 
+
+if (polandPopulation>33){
+    console.log(`Portugal's population is above average`)
+} else{
+    console.log(`Portugal's population is 22 million below average`)
+};
+
+
