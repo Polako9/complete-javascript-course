@@ -155,4 +155,10 @@ if (bmiMark > bmiJohn){
     console.log(`John's BMI (${bmiJohn }) is higher than Mark's (${bmiMark})`);
 }
 
+//TYPE CONVERSION AND COERCION
 
+console.log('9' - '5'); // - zamienia na liczby
+console.log('19' - '13' + '17'); // + zamienia na string
+console.log('19' - '13' + 17); 
+console.log('123' < 57);
+console.log(5 + 6 + '4' + 9 - 4 - 2);
