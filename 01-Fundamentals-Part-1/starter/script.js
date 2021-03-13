@@ -133,9 +133,26 @@ console.log(descr);
 const polandPopulation = 40 ; 
 
 if (polandPopulation>33){
-    console.log(`Portugal's population is above average`)
+    console.log(`Portugal's population is above averageeee`)
 } else{
-    console.log(`Portugal's population is 22 million below average`)
+    console.log(`Portugal's population is 22 million below averageeee`)
 };
+
+
+//coding challange 2
+
+const heightMark = 1.69 ;
+const weightMark = 78;
+const heightJohn = 1.95;
+const weightJohn = 92 ;
+
+bmiMark = weightMark/heightMark ** 2;
+bmiJohn =  weightJohn /(heightJohn * heightJohn) ;
+
+if (bmiMark > bmiJohn){
+    console.log(`Mark's BMI (${bmiMark})is higher than John's! (${bmiJohn })`);
+}else{
+    console.log(`John's BMI (${bmiJohn }) is higher than Mark's (${bmiMark})`);
+}
 
 
