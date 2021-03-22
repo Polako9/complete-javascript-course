@@ -176,4 +176,52 @@ if( numNeighbours === 1){
 }
 */
 //Logical Operators - task
+const language = "english";
+const population = 50;
+const island = false;
 
+if(language === 'english' && population === 50 && !island){
+console.log('You should live in Portugal :)');
+} else{
+console.log('Portugal does not meet your criteria');
+}
+/*
+//coding chalange 3
+let avarageDolpins = (96+108+89)/3;
+let averageKoala = (88+91+110)/3;
+const minScore = 100;
+
+if(avarageDolpins>averageKoala){
+console.log("dolphins wins");
+} else if(avarageDolpins<averageKoala){
+console.log("koala wins");
+} else{
+console.log("draw");
+}
+*/
+/*
+//coding chalange 3 bonus
+let avarageDolpins = (97+112+101)/3;
+let averageKoala = (109+95+123)/3;
+const minScore = 100;
+
+if(avarageDolpins>averageKoala && avarageDolpins >= 100){
+console.log("dolphins wins");
+} else if(avarageDolpins<averageKoala && averageKoala >= 100){
+console.log("koala wins");
+} else{
+console.log("draw");
+}
+*/
+//coding chalange 3 bonus 2
+let avarageDolpins = (97+112+101)/3;
+let averageKoala = (109+95+106)/3;
+const minScore = 100;
+
+if(avarageDolpins>averageKoala && avarageDolpins >= 100){
+console.log("dolphins wins");
+} else if(avarageDolpins<averageKoala && averageKoala >= 100){
+console.log("koala wins");
+} else if(avarageDolpins===averageKoala && averageKoala>=100 && avarageDolpins>=100){
+console.log("draw");
+}
