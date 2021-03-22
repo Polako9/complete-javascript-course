@@ -175,6 +175,7 @@ if( numNeighbours === 1){
     console.log("No borders");
 }
 */
+/*
 //Logical Operators - task
 const language = "english";
 const population = 50;
@@ -214,6 +215,7 @@ console.log("draw");
 }
 */
 //coding chalange 3 bonus 2
+/*
 let avarageDolpins = (97+112+101)/3;
 let averageKoala = (109+95+106)/3;
 const minScore = 100;
@@ -225,3 +227,42 @@ console.log("koala wins");
 } else if(avarageDolpins===averageKoala && averageKoala>=100 && avarageDolpins>=100){
 console.log("draw");
 }
+*/
+
+// switch statment
+const language = 'chinese';
+
+switch(language){
+    case 'chinese':
+    case 'mandarian':
+        console.log('MOST number of native speakers!');
+        break;
+    case 'spanish':
+        console.log('2nd place in number of native speakers');
+    case 'english':
+        console.log('3rd place');
+    case 'hindi':
+        console.log('Number 4');
+    case 'arabic':
+        console.log('5th most spoken language');
+        break;
+    default:
+    console.log('great language too : D');
+}
+
+// the conditional ternary operator
+
+const population = 37;
+
+const pop = population >= 33 ? 'Portugals population is above average' : 'Portugals population is below average';
+
+console.log(`${pop}`);
+
+// cdoing chalange 4
+
+const bill = 275 + 40 + 430
+const tip = ((275 + 40 + 430)*20)/100;
+const finalvalue = bill + tip;
+
+console.log(`the bill was ${bill}, the tip was ${tip} and the total value ${finalvalue}`);
+
