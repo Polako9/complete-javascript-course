@@ -124,6 +124,7 @@ const markHigherBMI = bmiMark > bmiJohn;
 console.log(bmiMark,bmiJohn,markHigherBMI);
 
 */
+/*
 const year = 1993
 const descr = `portugal is in Europe  test , ${year} and 11 million people \n\ speak portuguese`;
 console.log(descr);
@@ -162,3 +163,17 @@ console.log('19' - '13' + '17'); // + zamienia na string
 console.log('19' - '13' + 17); 
 console.log('123' < 57);
 console.log(5 + 6 + '4' + 9 - 4 - 2);
+
+//Equality operators == vs == -task
+let numNeighbours = prompt('How many neighbour countries does your country have?');
+
+if( numNeighbours === 1){
+    console.log("Only 1 border");
+} else if( numNeighbours > 1){
+    console.log("More than 1 borde in case");
+} else{
+    console.log("No borders");
+}
+*/
+//Logical Operators - task
+
