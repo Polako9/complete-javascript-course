@@ -230,6 +230,7 @@ console.log("draw");
 */
 
 // switch statment
+/*
 const language = 'chinese';
 
 switch(language){
@@ -265,4 +266,14 @@ const tip = ((275 + 40 + 430)*20)/100;
 const finalvalue = bill + tip;
 
 console.log(`the bill was ${bill}, the tip was ${tip} and the total value ${finalvalue}`);
+*/
 
+//function
+
+function describeCountry(country, population, capitalCity){
+    const desc = `${country} has ${population} million people and its
+    capital city is ${capitalCity}`;
+    return desc;
+}
+const test = describeCountry(`Poland`, 30, `Warszawa`);
+console.log(test);
