@@ -277,3 +277,28 @@ function describeCountry(country, population, capitalCity){
 }
 const test = describeCountry(`Poland`, 30, `Warszawa`);
 console.log(test);
+//function declaraction vs expressions
+
+const popu = percentageOfWorld1(1441)
+const popu2 = percentageOfWorld1(72)
+const popu3 = percentageOfWorld1(3000)
+
+console.log(popu,popu2,popu3);
+
+function percentageOfWorld1 (population){
+
+    return (population/7900)*100
+}
+
+
+//function expressions
+const percentageOfWorld2  =  function (population){
+
+    return (population/7900)*100
+}
+const poppu = percentageOfWorld2(3)
+const poppu2 = percentageOfWorld2(2)
+const poppu3 = percentageOfWorld2(34)
+console.log(poppu,poppu2,poppu3);
+
+
