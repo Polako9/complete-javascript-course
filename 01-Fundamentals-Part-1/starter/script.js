@@ -302,3 +302,7 @@ const poppu3 = percentageOfWorld2(34)
 console.log(poppu,poppu2,poppu3);
 
 
+// arrow function
+const percentageOfWorld3 = population => (population/7900)*100
+const poppu4 = percentageOfWorld3(1444)
+console.log(poppu);
