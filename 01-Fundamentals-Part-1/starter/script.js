@@ -269,7 +269,7 @@ console.log(`the bill was ${bill}, the tip was ${tip} and the total value ${fina
 */
 
 //function
-
+/*
 function describeCountry(country, population, capitalCity){
     const desc = `${country} has ${population} million people and its
     capital city is ${capitalCity}`;
@@ -306,3 +306,21 @@ console.log(poppu,poppu2,poppu3);
 const percentageOfWorld3 = population => (population/7900)*100
 const poppu4 = percentageOfWorld3(1444)
 console.log(poppu);
+*/
+/// functions alling other functions
+
+function percentageOfWorld1 (percentage){
+
+    return percentage * 6;
+}
+
+function describePopulation(country, population){
+    const perCountry = percentageOfWorld1(country);
+    const perPopulation = percentageOfWorld1(population);
+
+    const calculate =  `China has ${perCountry} million people, which is about ${perPopulation} of the world.`;
+    return calculate;
+}
+
+console.log(describePopulation(2,3));
+
